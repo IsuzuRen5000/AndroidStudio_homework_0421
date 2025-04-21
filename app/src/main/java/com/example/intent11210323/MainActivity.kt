@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         binding.button2.setOnClickListener {
             Intent(this,SecondPage::class.java).apply {
                 putExtra("title","john")
-                putExtra("age",20)
+                putExtra("age",30)
 
                 startActivity(this)
             }
